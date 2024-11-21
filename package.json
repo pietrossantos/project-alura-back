@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "project-alura-back",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,15 +19,16 @@
   "keywords": [],
   "author": {
     "name": "",
-    "email": "",
-    "url": ""
+    "email": "pietrosilva.0305@gmail.com",
+    "url": "http://localhost:3000/posts"
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
+    "dev": "node --watch --env-file=.env server.js",
     "test": ""
   },
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
   }
 }
